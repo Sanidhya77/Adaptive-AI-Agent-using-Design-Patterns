@@ -51,8 +51,32 @@ This is an AI agent application built using Python and the Google Gemini API. It
    - Example: *"Save your last answer to a file called notes"*
    - The bot will write the response to `saved_outputs/notes.txt`. You can later ask it to *"Read notes.txt"*.
 
+## File Structure
+
+```text
+Adaptive-AI-Agent-using-Design-Patterns/
+├── ai_agent/
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── base_tool.py
+│   │   ├── calculator_tool.py
+│   │   ├── document_analyzer_tool.py
+│   │   ├── file_manager_tool.py
+│   │   ├── time_tool.py
+│   │   └── weather_tool.py
+│   ├── agent.py
+│   ├── main.py
+│   ├── memory_manager.py
+│   ├── tool_registry.py
+│   ├── test_suite.py
+│   └── requirements.txt
+├── .gitignore
+└── README.md
+```
+
 ## What is Implemented and How?
 
+Below is a detailed breakdown of all assignment requirements, where they are implemented, and the specific files/lines of code.
 Below is a detailed breakdown of all assignment requirements, where they are implemented, and the specific files/lines of code.
 
 ### 1. Separation of Concerns (SRP) & Architecture Focus
