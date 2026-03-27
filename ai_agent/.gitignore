@@ -1,7 +1,0 @@
-.env
-__pycache__/
-*.pyc
-.venv/
-saved_outputs/
-test_output.txt
-CHECKLIST.md
